@@ -1,13 +1,17 @@
 import "./App.css";
-import Home from "./pages/Header";
+import Header from "./pages/Header";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import MyProjects from "./pages/MyProjects";
+import TechStack from "./pages/TechStack";
 
 function App() {
   return (
     <>
       <Navbar />
-      <Home />
+      <Header />
+      <TechStack />
+      <MyProjects />
       <Footer />
     </>
   );

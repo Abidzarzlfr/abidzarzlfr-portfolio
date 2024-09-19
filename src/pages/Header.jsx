@@ -1,5 +1,6 @@
 import React from "react";
 import profile from "../assets/profile-picture.png";
+import { MdOutlineFileDownload } from "react-icons/md";
 
 function Header() {
   return (
@@ -11,13 +12,15 @@ function Header() {
           </p>
           <p className="header-text-name text-6xl font-bold">
             <code className="tracking-widest">
-              I'm, <a className="underline decoration-primary">Abidzar</a>
+              I'm, <a className="text-secondary">Abidzar</a>
             </code>
           </p>
           <p className="header-text-footer mt-3 text-lg tracking-widest">
-            Welcome to my{" "}
-            <b className="text-orange-500">Portfolio Website.</b>
+            Welcome to my <b className="text-accent">Portfolio Website.</b>
           </p>
+          <button className="btn btn-outline btn-primary mt-2">
+            Download CV <MdOutlineFileDownload className="text-xl"/>
+          </button>
         </div>
         <div className="header-image flex-initial w-1/3">
           <img className="rounded-2xl" src={profile} alt="Profile-Images" />
