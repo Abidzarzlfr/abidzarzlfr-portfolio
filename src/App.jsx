@@ -1,12 +1,14 @@
 import "./App.css";
 import Home from "./pages/Header";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <>
       <Navbar />
-      <Home/>
+      <Home />
+      <Footer />
     </>
   );
 }

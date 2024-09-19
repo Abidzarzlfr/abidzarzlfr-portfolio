@@ -11,7 +11,7 @@ function Header() {
           </p>
           <p className="header-text-name text-6xl font-bold">
             <code className="tracking-widest">
-              I'm, <a className="underline decoration-indigo-500">Abidzar</a>
+              I'm, <a className="underline decoration-primary">Abidzar</a>
             </code>
           </p>
           <p className="header-text-footer mt-3 text-lg tracking-widest">
