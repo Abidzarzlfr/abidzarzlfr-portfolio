@@ -6,7 +6,7 @@ function Header() {
   return (
     <div className="header-page mt-10">
       <div className="header-content flex justify-between">
-        <div className="header-text flex-initial flex-col py-44 text-left w-2/3">
+        <div className="header-text flex-initial flex-col py-44 lg:py-32 md:py-20 sm:py-12 text-left w-2/3">
           <p className="header-text-greeting text-7xl font-extrabold">
             <code className="tracking-widest text-primary">Holla!</code>
           </p>

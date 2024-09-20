@@ -8,7 +8,7 @@ export default function MyProjects() {
       <div className="myprojects-title text-center mb-10">
         <Title value="My Projects"/>
       </div>
-      <div className="myprojects-content flex-wrap flex gap-x-8 gap-y-4 flex-cols-3">
+      <div className="myprojects-content flex-wrap flex gap-x-8 gap-y-4 flex-cols-3 justify-center">
         <Card />
         <Card />
         <Card />
