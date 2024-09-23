@@ -69,7 +69,7 @@ export default function About() {
           </div>
         </div>
         <div className="text-start md:w-full lg:w-1/2">
-          <h1 className="text-4xl font-bold text-secondary lg:text-right sm:text-center">
+          <h1 className="text-3xl font-bold text-secondary lg:text-right sm:text-center">
             <code>About Me</code> 🧑🏻‍💻
           </h1>
           <p className="py-4 lg:text-right sm:text-center">
