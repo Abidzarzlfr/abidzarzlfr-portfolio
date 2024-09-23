@@ -3,7 +3,11 @@ import React from "react";
 const Title = (props) => {
   return (
     <div className="title">
-      <code className="text-2xl font-extrabold text-secondary">{props.value}</code>
+      <button className="btn btn-wide btn-outline btn-secondary">
+        <code className="text-xl font-extrabold">
+          {props.value}
+        </code>
+      </button>
     </div>
   );
 };
