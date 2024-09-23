@@ -19,38 +19,53 @@ export default function About() {
               className="rounded-box"
             />
             <div className="absolute bottom-1 left-1">
-              <button className="btn btn-sm rounded-xl">17-10-2001</button>
+              <button className="btn btn-sm btn-primary rounded-xl">17-10-2001</button>
             </div>
           </div>
-          <div className="carousel-item">
+          <div className="carousel-item relative">
             <img
               src={len1}
               className="rounded-box"
             />
+            <div className="absolute bottom-1 left-1">
+              <button className="btn btn-sm btn-primary rounded-xl">17-10-2001</button>
+            </div>
           </div>
-          <div className="carousel-item">
+          <div className="carousel-item relative">
             <img
               src={len2}
               className="rounded-box"
             />
+            <div className="absolute bottom-1 left-1">
+              <button className="btn btn-sm btn-primary rounded-xl">17-10-2001</button>
+            </div>
           </div>
-          <div className="carousel-item">
+          <div className="carousel-item relative">
             <img
               src={pindad1}
               className="rounded-box"
             />
+            <div className="absolute bottom-1 left-1">
+              <button className="btn btn-sm btn-primary rounded-xl">17-10-2001</button>
+            </div>
           </div>
-          <div className="carousel-item">
+          <div className="carousel-item relative">
             <img
               src={practicum1}
               className="rounded-box"
             />
+            <div className="absolute bottom-1 left-1">
+              <button className="btn btn-sm btn-primary rounded-xl">17-10-2001</button>
+            </div>
           </div>
-          <div className="carousel-item">
+          <div className="carousel-item relative">
             <img
               src={practicum2}
               className="rounded-box"
             />
+            <div className="absolute bottom-1 left-1">
+              <button className="btn btn-sm btn-primary rounded-xl">17-10-2001</button>
+            </div>
           </div>
         </div>
         <div className="text-start md:w-full lg:w-1/2">
