@@ -21,7 +21,9 @@ const Navbar = () => {
 
   return (
     <div className="navbar bg-primary rounded-lg text-primary-content sticky top-4 z-50">
+      {/* Navbar Start */}
       <div className="navbar-start">
+        {/* Dropdown Start Navbar */}
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
             <svg
@@ -44,6 +46,9 @@ const Navbar = () => {
             className="menu menu-sm dropdown-content font-medium tracking-wide bg-primary text-primary-content rounded-box z-[1] mt-3 w-52 p-2 shadow"
           >
             <li>
+              <a>tech stack</a>
+            </li>
+            <li>
               <a>my projects</a>
             </li>
             <li>
@@ -51,10 +56,8 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl">abidzarzlfr.portfolio</a>
-      </div>
-      <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1 font-medium tracking-wide">
+        {/* Start Navbar */}
+        <ul className="menu menu-horizontal px-1 font-medium tracking-wide hidden lg:flex">
           <li>
             <a>tech stack</a>
           </li>
@@ -66,6 +69,11 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
+      {/* Navbar Center */}
+      <div className="navbar-center">
+        <a className="btn btn-ghost text-xl">abidzarzlfr.portfolio</a>
+      </div>
+      {/* Navbar End */}
       <div className="navbar-end">
         <label className="swap swap-rotate">
           {/* this hidden checkbox controls the state */}

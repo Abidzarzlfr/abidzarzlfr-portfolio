@@ -6,7 +6,7 @@ function Header() {
   return (
     <div className="header-page mt-10">
       <div className="header-content flex justify-between">
-        <div className="header-text flex-initial flex-col py-44 lg:py-32 md:py-20 sm:py-12 text-left w-2/3">
+        <div className="header-text flex-initial flex-col lg:py-40 lg:ps-20 md:py-20 sm:py-12 text-left w-2/3">
           <p className="header-text-greeting text-7xl font-extrabold">
             <code className="tracking-widest text-primary">Holla!</code>
           </p>
@@ -22,7 +22,7 @@ function Header() {
             Download CV <MdOutlineFileDownload className="text-xl"/>
           </button>
         </div>
-        <div className="header-image flex-initial w-1/3">
+        <div className="header-image flex-initial w-1/3 lg:pe-20">
           <img className="rounded-2xl" src={profile} alt="Profile-Images" />
         </div>
       </div>

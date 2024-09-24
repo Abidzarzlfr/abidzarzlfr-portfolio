@@ -68,11 +68,11 @@ export default function About() {
             </div>
           </div>
         </div>
-        <div className="text-start md:w-full lg:w-1/2">
-          <h1 className="text-3xl font-bold text-secondary lg:text-right sm:text-center">
+        <div className="text-start md:w-full lg:w-1/2 ps-3">
+          <h1 className="text-3xl font-bold text-secondary lg:text-left sm:text-center">
             <code>About Me</code> 🧑🏻‍💻
           </h1>
-          <p className="py-4 lg:text-right sm:text-center">
+          <p className="py-4 lg:text-left sm:text-center">
             <code>
               I have recently completed my bachelor's degree in Information
               Systems and have a strong interest in software engineering. My
@@ -80,7 +80,7 @@ export default function About() {
               goals and makes a positive impact on organizations or companies.
             </code>
           </p>
-          <div className="about-document flex gap-3 sm:justify-center lg:justify-end">
+          <div className="about-document flex gap-3 sm:justify-center lg:justify-start">
             <button className="btn btn-outline btn-primary">
               CV <MdOutlineFileDownload className="text-xl" />
             </button>
