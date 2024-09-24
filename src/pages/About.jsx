@@ -73,14 +73,14 @@ export default function About() {
             <code>About Me</code> 🧑🏻‍💻
           </h1>
           <p className="py-4 lg:text-left sm:text-center">
-            <code>
+            <code className="text-sm">
               I have recently completed my bachelor's degree in Information
               Systems and have a strong interest in software engineering. My
               goal is to be part of a team that collaborates to achieve common
               goals and makes a positive impact on organizations or companies.
             </code>
           </p>
-          <div className="about-document flex gap-3 sm:justify-center lg:justify-start">
+          <div className="about-document mt-2 flex gap-3 sm:justify-center lg:justify-start">
             <button className="btn btn-outline btn-primary">
               CV <MdOutlineFileDownload className="text-xl" />
             </button>
