@@ -1,6 +1,7 @@
 import React from "react";
 import profile from "../assets/profile-picture.png";
-import { MdOutlineFileDownload } from "react-icons/md";
+import DownloadButton from "../components/DownloadButton";
+import resume from "../assets/downloadFile/Resume.pdf";
 
 function Header() {
   return (
@@ -18,9 +19,12 @@ function Header() {
           <p className="header-text-footer mt-3 text-lg tracking-widest">
             Welcome to my <b className="text-accent">Portfolio Website.</b>
           </p>
-          <button className="btn btn-outline btn-primary mt-2">
-            Download CV <MdOutlineFileDownload className="text-xl"/>
-          </button>
+          <DownloadButton
+            fileName="Abidzar Zulfa Arifa Kusyono - Resume"
+            text="Download Resume"
+            style="btn btn-outline btn-primary mt-2"
+            url={resume}
+          />
         </div>
         <div className="header-image flex-initial w-1/3 lg:pe-20">
           <img className="rounded-2xl" src={profile} alt="Profile-Images" />
