@@ -52,7 +52,7 @@ const Navbar = () => {
               <a>my projects</a>
             </li>
             <li>
-              <a>contact me</a>
+              <a>about me</a>
             </li>
           </ul>
         </div>
@@ -65,7 +65,7 @@ const Navbar = () => {
             <a>my projects</a>
           </li>
           <li>
-            <a>contact me</a>
+            <a>about me</a>
           </li>
         </ul>
       </div>
