@@ -9,25 +9,16 @@ import practicum2 from "../assets/about/practicum-2.svg";
 import DownloadButton from "../components/DownloadButton";
 import resume from "../assets/downloadFile/Resume.pdf";
 import academicTranscript from "../assets/downloadFile/Academic Transcript.pdf";
-
-// Reusable CarouselItem component
-const CarouselItem = ({ imgSrc, date }) => (
-  <div className="carousel-item relative">
-    <img src={imgSrc} alt="carousel-item" className="rounded-box" />
-    <div className="absolute bottom-1 left-1">
-      <button className="btn btn-sm btn-primary rounded-xl">{date}</button>
-    </div>
-  </div>
-);
+import CarouselAbout from "../components/CarouselAbout";
 
 export default function About() {
   const carouselItems = [
-    { imgSrc: graduation, date: "17-10-2001" },
-    { imgSrc: len1, date: "17-10-2001" },
-    { imgSrc: len2, date: "17-10-2001" },
-    { imgSrc: pindad1, date: "17-10-2001" },
-    { imgSrc: practicum1, date: "17-10-2001" },
-    { imgSrc: practicum2, date: "17-10-2001" },
+    { imgSrc: graduation, date: "Aug 20 - Jul 24", title: "Bachelor of Computer Science" },
+    { imgSrc: len1, date: "Aug 23 - Dec 23", title: "Frontend Developer" },
+    { imgSrc: len2, date: "Aug 23 - Dec 23", title: "Frontend Dev Activity" },
+    { imgSrc: pindad1, date: "Jul 23 - Sep 23", title: "Software Developer" },
+    { imgSrc: practicum1, date: "Aug 22 - Jan 23", title: "Practicum Assistant" },
+    { imgSrc: practicum2, date: "Aug 22 - Jan 23", title: "Practicum Assistant Activity" },
   ];
 
   return (
@@ -36,7 +27,7 @@ export default function About() {
         {/* Carousel Section */}
         <div className="carousel carousel-center bg-neutral rounded-box space-x-4 p-4 lg:w-2/3 md:w-full">
           {carouselItems.map((item, index) => (
-            <CarouselItem key={index} imgSrc={item.imgSrc} date={item.date} />
+            <CarouselAbout key={index} imgSrc={item.imgSrc} date={item.date} title={item.title} />
           ))}
         </div>
 
@@ -68,11 +59,22 @@ export default function About() {
               style="btn btn-accent"
               url={academicTranscript}
             />
-            <a href="">
-              <FaLinkedin className="text-5xl text-blue-400" />
+            <a
+              onClick={() =>
+                window.open(
+                  "https://www.linkedin.com/in/abidzar-zulfa-arifa-kusyono-0550221ba",
+                  "_blank"
+                )
+              }
+            >
+              <FaLinkedin className="text-5xl text-blue-400 cursor-alias" />
             </a>
-            <a href="">
-              <FaGithubSquare className="text-5xl text-purple-500" />
+            <a
+              onClick={() =>
+                window.open("https://github.com/Abidzarzlfr", "_blank")
+              }
+            >
+              <FaGithubSquare className="text-5xl text-purple-500 cursor-alias" />
             </a>
           </div>
         </div>
