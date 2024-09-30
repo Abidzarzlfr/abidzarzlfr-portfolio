@@ -13,7 +13,7 @@ export default function TechStack() {
       </div>
       <div className="mockup-code">
         <pre data-prefix="$">
-          <code>npm i my techstack</code>
+          <code>npm i abidzar -techstack</code>
         </pre>
         <pre data-prefix=">" className="text-warning">
           <code>installing...</code>
