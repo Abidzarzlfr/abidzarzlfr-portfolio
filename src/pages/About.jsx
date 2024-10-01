@@ -13,12 +13,24 @@ import CarouselAbout from "../components/CarouselAbout";
 
 export default function About() {
   const carouselItems = [
-    { imgSrc: graduation, date: "Aug 20 - Jul 24", title: "Bachelor of Computer Science" },
+    {
+      imgSrc: graduation,
+      date: "Aug 20 - Jul 24",
+      title: "Bachelor of Computer Science",
+    },
     { imgSrc: len1, date: "Aug 23 - Dec 23", title: "Frontend Developer" },
     { imgSrc: len2, date: "Aug 23 - Dec 23", title: "Frontend Dev Activity" },
     { imgSrc: pindad1, date: "Jul 23 - Sep 23", title: "Software Developer" },
-    { imgSrc: practicum1, date: "Aug 22 - Jan 23", title: "Practicum Assistant" },
-    { imgSrc: practicum2, date: "Aug 22 - Jan 23", title: "Practicum Assistant Activity" },
+    {
+      imgSrc: practicum1,
+      date: "Aug 22 - Jan 23",
+      title: "Practicum Assistant",
+    },
+    {
+      imgSrc: practicum2,
+      date: "Aug 22 - Jan 23",
+      title: "Practicum Assistant Activity",
+    },
   ];
 
   return (
@@ -27,7 +39,12 @@ export default function About() {
         {/* Carousel Section */}
         <div className="carousel carousel-center bg-neutral rounded-box space-x-4 p-4 lg:w-2/3 md:w-full">
           {carouselItems.map((item, index) => (
-            <CarouselAbout key={index} imgSrc={item.imgSrc} date={item.date} title={item.title} />
+            <CarouselAbout
+              key={index}
+              imgSrc={item.imgSrc}
+              date={item.date}
+              title={item.title}
+            />
           ))}
         </div>
 
