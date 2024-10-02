@@ -63,7 +63,7 @@ export default function About() {
           </p>
 
           {/* Buttons and Links Section */}
-          <div className="about-document mt-2 flex gap-3 sm:justify-center lg:justify-start">
+          <div className="about-document mt-2 flex flex-wrap gap-3 sm:justify-center lg:justify-start">
             <DownloadButton
               fileName="Abidzar Zulfa Arifa Kusyono - Resume"
               text="Resume"

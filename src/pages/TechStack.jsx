@@ -18,7 +18,7 @@ export default function TechStack() {
         <pre data-prefix=">" className="text-warning">
           <code>installing...</code>
         </pre>
-        <div className="techstack-content flex justify-center gap-10 text-7xl rounded-lg py-5 sm:flex-cols-4 sm:flex-wrap">
+        <div className="techstack-content flex flex-wrap justify-center gap-10 text-7xl rounded-lg py-5 sm:flex-cols-4 sm:flex-wrap">
           <div className="react-icon">
             <FaReact className="text-cyan-400" />
           </div>
