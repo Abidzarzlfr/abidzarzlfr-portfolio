@@ -1,7 +1,7 @@
 import React from "react";
 import profile from "../assets/profile-picture.png";
 import DownloadButton from "../components/DownloadButton";
-import resume from "../assets/downloadFile/Resume.pdf";
+import resume from "../assets/Resume.pdf";
 
 function Header() {
   return (
