@@ -10,10 +10,18 @@ function App() {
   return (
     <>
       <Navbar />
-      <Header />
-      <About />
-      <TechStack />
-      <MyProjects />
+      <div id="header">
+        <Header />
+      </div>
+      <div id="about">
+        <About />
+      </div>
+      <div id="tech-stack">
+        <TechStack />
+      </div>
+      <div id="my-projects">
+        <MyProjects />
+      </div>
       <Footer />
     </>
   );

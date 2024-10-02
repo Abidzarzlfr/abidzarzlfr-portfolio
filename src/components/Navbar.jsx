@@ -46,26 +46,26 @@ const Navbar = () => {
             className="menu menu-sm dropdown-content font-medium tracking-wide bg-primary text-primary-content rounded-box z-[1] mt-3 w-52 p-2 shadow"
           >
             <li>
-              <a>tech stack</a>
+              <a href="#about">About Me</a>
             </li>
             <li>
-              <a>my projects</a>
+              <a href="#tech-stack">Tech Stack</a>
             </li>
             <li>
-              <a>about me</a>
+              <a href="#my-projects">My Projects</a>
             </li>
           </ul>
         </div>
         {/* Start Navbar */}
         <ul className="menu menu-horizontal px-1 font-medium tracking-wide hidden lg:flex">
           <li>
-            <a>tech stack</a>
+            <a href="#about">About Me</a>
           </li>
           <li>
-            <a>my projects</a>
+            <a href="#tech-stack">Tech Stack</a>
           </li>
           <li>
-            <a>about me</a>
+            <a href="#my-projects">My Projects</a>
           </li>
         </ul>
       </div>
