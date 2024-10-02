@@ -71,7 +71,7 @@ const Navbar = () => {
       </div>
       {/* Navbar Center */}
       <div className="navbar-center">
-        <a className="btn btn-ghost text-xl">abidzarzlfr.portfolio</a>
+        <a href="#" className="btn btn-ghost text-xl">abidzarzlfr.portfolio</a>
       </div>
       {/* Navbar End */}
       <div className="navbar-end">
