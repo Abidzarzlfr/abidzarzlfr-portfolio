@@ -1,11 +1,11 @@
 import React from "react";
 import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
 import graduation from "../assets/carousel/graduation.svg";
-import len1 from "../assets/carousel/len-internship-1.svg";
-import len2 from "../assets/carousel/len-internship-2.svg";
-import pindad1 from "../assets/carousel/pindad-internship-1.svg";
-import practicum1 from "../assets/carousel/practicum-1.svg";
-import practicum2 from "../assets/carousel/practicum-2.svg";
+import len1 from "../assets/carousel/len-internship-1.png";
+import len2 from "../assets/carousel/len-internship-2.png";
+import pindad1 from "../assets/carousel/pindad-internship-1.png";
+import practicum1 from "../assets/carousel/practicum-1.png";
+import practicum2 from "../assets/carousel/practicum-2.png";
 import DownloadButton from "../components/DownloadButton";
 import resume from "../assets/download/Resume.pdf";
 import academicTranscript from "../assets/download/Academic Transcript.pdf";
