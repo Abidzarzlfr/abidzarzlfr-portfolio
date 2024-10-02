@@ -16,7 +16,7 @@ export default function About() {
     {
       imgSrc: graduation,
       date: "Aug 20 - Jul 24",
-      title: "Bachelor of Computer Science",
+      title: "Bachelor of Information Systems",
     },
     { imgSrc: len1, date: "Aug 23 - Dec 23", title: "Frontend Developer" },
     { imgSrc: len2, date: "Aug 23 - Dec 23", title: "Frontend Dev Activity" },
