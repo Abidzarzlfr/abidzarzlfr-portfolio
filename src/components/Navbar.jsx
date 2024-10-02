@@ -71,7 +71,9 @@ const Navbar = () => {
       </div>
       {/* Navbar Center */}
       <div className="navbar-center">
-        <a href="#" className="btn btn-ghost text-xl">abidzarzlfr.portfolio</a>
+        <a href="#" className="btn btn-ghost text-xl sm:text-xl mobile:text-sm">
+          abidzarzlfr.portfolio
+        </a>
       </div>
       {/* Navbar End */}
       <div className="navbar-end">
@@ -85,7 +87,7 @@ const Navbar = () => {
 
           {/* sun icon */}
           <svg
-            className="swap-on h-10 w-10 fill-current"
+            className="swap-on h-10 w-10 sm:h-10 sm:w-10 sm:mt-0 mobile:h-7 mobile:w-7 mobile:mt-1 fill-current"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
           >
@@ -94,7 +96,7 @@ const Navbar = () => {
 
           {/* moon icon */}
           <svg
-            className="swap-off h-10 w-10 fill-current"
+            className="swap-off h-10 w-10 sm:h-10 sm:w-10 sm:mt-0 mobile:h-7 mobile:w-7 mobile:mt-1 fill-current"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
           >
