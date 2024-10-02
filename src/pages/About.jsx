@@ -1,14 +1,14 @@
 import React from "react";
 import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
-import graduation from "../assets/graduation.svg";
-import len1 from "../assets/len-internship-1.svg";
-import len2 from "../assets/len-internship-2.svg";
-import pindad1 from "../assets/pindad-internship-1.svg";
-import practicum1 from "../assets/practicum-1.svg";
-import practicum2 from "../assets/practicum-2.svg";
+import graduation from "../assets/carousel/graduation.svg";
+import len1 from "../assets/carousel/len-internship-1.svg";
+import len2 from "../assets/carousel/len-internship-2.svg";
+import pindad1 from "../assets/carousel/pindad-internship-1.svg";
+import practicum1 from "../assets/carousel/practicum-1.svg";
+import practicum2 from "../assets/carousel/practicum-2.svg";
 import DownloadButton from "../components/DownloadButton";
-import resume from "../assets/Resume.pdf";
-import academicTranscript from "../assets/Academic Transcript.pdf";
+import resume from "../assets/download/Resume.pdf";
+import academicTranscript from "../assets/download/Academic Transcript.pdf";
 import CarouselAbout from "../components/CarouselAbout";
 
 export default function About() {

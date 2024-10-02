@@ -3,12 +3,12 @@ import Card from "../components/Card";
 import Title from "../components/Title";
 
 // Project Images
-import Fitclub from "../assets/fitclub-mockup.png";
-import Kelontong from "../assets/kelontong-mockup.png";
-import Sapatuku from "../assets/sapatuku-mockup.png";
-import Restaurant from "../assets/restaurant-mockup.png";
-import Pelita from "../assets/pelita-mockup.jpg";
-import Portfolio from "../assets/portfolio-mockup.png";
+import Fitclub from "../assets/mockup/fitclub-mockup.png";
+import Kelontong from "../assets/mockup/kelontong-mockup.png";
+import Sapatuku from "../assets/mockup/sapatuku-mockup.png";
+import Restaurant from "../assets/mockup/restaurant-mockup.png";
+import Pelita from "../assets/mockup/pelita-mockup.jpg";
+import Portfolio from "../assets/mockup/portfolio-mockup.png";
 
 // Icons
 import { FaBootstrap, FaLaravel, FaNodeJs, FaReact } from "react-icons/fa";
