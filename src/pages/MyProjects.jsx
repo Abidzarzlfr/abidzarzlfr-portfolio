@@ -9,6 +9,7 @@ import Sapatuku from "../assets/mockup/sapatuku-mockup.png";
 import Restaurant from "../assets/mockup/restaurant-mockup.png";
 import Pelita from "../assets/mockup/pelita-mockup.jpg";
 import Portfolio from "../assets/mockup/portfolio-mockup.png";
+import ScreenshotTools from "../assets/mockup/screenshot-tools-mockup.png";
 
 // Icons
 import { FaBootstrap, FaLaravel, FaNodeJs, FaReact } from "react-icons/fa";
@@ -31,6 +32,13 @@ export default function MyProjects() {
   };
 
   const projects = [
+    {
+      img: ScreenshotTools,
+      title: "Screenshot Tools Features (Web-Based)",
+      body: "Fitclub is a website that provides workout movement references using an API as its main data source. The purpose of creating this website is to assist the community in selecting appropriate movements when exercising at the gym or at home.",
+      icons: [icons.react, icons.node, icons.js],
+      url: "https://fitclub-id-abidzarzlfr.netlify.app/"
+    },
     {
       img: Fitclub,
       title: "Gym Exercise Website",
