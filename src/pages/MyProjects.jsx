@@ -10,11 +10,16 @@ import Restaurant from "../assets/mockup/restaurant-mockup.png";
 import Pelita from "../assets/mockup/pelita-mockup.jpg";
 import Portfolio from "../assets/mockup/portfolio-mockup.png";
 import ScreenshotTools from "../assets/mockup/screenshot-tools-mockup.png";
+import Epakta from "../assets/mockup/epakta-mockup.png";
+import TmHealth from "../assets/mockup/tmhealth-mockup.png";
+import Egc from "../assets/mockup/egc-mockup.png";
+import Physionext from "../assets/mockup/physionext-mockup.png";
+import Posyandu from "../assets/mockup/posyandu-mockup.png";
 
 // Icons
 import { FaBootstrap, FaLaravel, FaNodeJs, FaReact } from "react-icons/fa";
 import { BiLogoJavascript } from "react-icons/bi";
-import { SiMysql, SiPhp, SiVite } from "react-icons/si";
+import { SiMysql, SiPhp, SiVite, SiNestjs, SiN8N } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
 
 export default function MyProjects() {
@@ -29,9 +34,46 @@ export default function MyProjects() {
     mysql: <SiMysql className="text-3xl text-blue-400" />,
     vite: <SiVite className="text-3xl text-yellow-300" />,
     tailwind: <RiTailwindCssFill className="text-3xl text-cyan-500" />,
+    nest: <SiNestjs className="text-3xl text-red-500"/>,
+    n8n: <SiN8N className="text-3xl text-red-400"/>
   };
 
   const projects = [
+    {
+      img: Posyandu,
+      title: "Posyandu (Web-Based)",
+      body: "Fitclub is a website that provides workout movement references using an API as its main data source. The purpose of creating this website is to assist the community in selecting appropriate movements when exercising at the gym or at home.",
+      icons: [icons.laravel, icons.php, icons.js, icons.tailwind],
+      url: "https://tmhealth.telkomedika.com/"
+    },
+    {
+      img: Egc,
+      title: "Employee Get Customer (EGC) (Web-Based)",
+      body: "Fitclub is a website that provides workout movement references using an API as its main data source. The purpose of creating this website is to assist the community in selecting appropriate movements when exercising at the gym or at home.",
+      icons: [icons.react, icons.node, icons.js, icons.nest, icons.tailwind],
+      url: "https://tmhealth.telkomedika.com/"
+    },
+    {
+      img: Physionext,
+      title: "Physionext (Web-Based)",
+      body: "Fitclub is a website that provides workout movement references using an API as its main data source. The purpose of creating this website is to assist the community in selecting appropriate movements when exercising at the gym or at home.",
+      icons: [icons.react, icons.node, icons.js, icons.nest, icons.tailwind],
+      url: "https://tmhealth.telkomedika.com/"
+    },
+    {
+      img: TmHealth,
+      title: "TMHealth (Web-Based)",
+      body: "Fitclub is a website that provides workout movement references using an API as its main data source. The purpose of creating this website is to assist the community in selecting appropriate movements when exercising at the gym or at home.",
+      icons: [icons.react, icons.node, icons.js, icons.nest, icons.tailwind],
+      url: "https://tmhealth.telkomedika.com/"
+    },
+    {
+      img: Epakta,
+      title: "Electronic Pakta Integritas (Web-Based)",
+      body: "Fitclub is a website that provides workout movement references using an API as its main data source. The purpose of creating this website is to assist the community in selecting appropriate movements when exercising at the gym or at home.",
+      icons: [icons.laravel, icons.php, icons.tailwind],
+      url: "https://e-pakta.telkomedika.com/"
+    },
     {
       img: ScreenshotTools,
       title: "Screenshot Tools Features (Web-Based)",
