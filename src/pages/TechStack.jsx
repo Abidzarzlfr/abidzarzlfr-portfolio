@@ -2,7 +2,7 @@ import React from "react";
 import Title from "../components/Title";
 import { FaBootstrap, FaLaravel, FaNodeJs, FaReact } from "react-icons/fa";
 import { BiLogoJavascript } from "react-icons/bi";
-import { SiMysql, SiPhp } from "react-icons/si";
+import { SiMysql, SiPhp, SiNestjs, SiN8N } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
 
 export default function TechStack() {
@@ -25,6 +25,9 @@ export default function TechStack() {
           <div className="laravel-icon">
             <FaLaravel className="text-red-600" />
           </div>
+          <div className="nest-icon">
+            <SiNestjs className="text-red-500" />
+          </div>
           <div className="mysql-icon">
             <SiMysql className="text-blue-400" />
           </div>
@@ -36,6 +39,9 @@ export default function TechStack() {
           </div>
           <div className="php-icon">
             <SiPhp className="text-indigo-700" />
+          </div>
+          <div className="n8n-icon">
+            <SiN8N className="text-red-400" />
           </div>
           <div className="tailwind-icon">
             <RiTailwindCssFill className="text-cyan-500" />
