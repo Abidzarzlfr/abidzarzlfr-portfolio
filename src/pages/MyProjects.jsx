@@ -9,8 +9,8 @@ import Sapatuku from "../assets/mockup/sapatuku-mockup.png";
 import Restaurant from "../assets/mockup/restaurant-mockup.png";
 import Pelita from "../assets/mockup/pelita-mockup.jpg";
 import Portfolio from "../assets/mockup/portfolio-mockup.png";
-import ScreenshotTools from "../assets/mockup/screenshot-tools-mockup.png";
 import Epakta from "../assets/mockup/epakta-mockup.png";
+import Presensi from "../assets/mockup/presensi.png";
 import TmHealth from "../assets/mockup/tmhealth-mockup.png";
 import Egc from "../assets/mockup/egc-mockup.png";
 import Physionext from "../assets/mockup/physionext-mockup.png";
@@ -21,7 +21,7 @@ import { FaBootstrap, FaLaravel, FaNodeJs, FaReact } from "react-icons/fa";
 import { BiLogoJavascript } from "react-icons/bi";
 import { SiMysql, SiPhp, SiVite, SiNestjs, SiN8N } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
-
+  
 export default function MyProjects() {
   // Technology Icons
   const icons = {
@@ -37,49 +37,48 @@ export default function MyProjects() {
     nest: <SiNestjs className="text-3xl text-red-500"/>,
     n8n: <SiN8N className="text-3xl text-red-400"/>
   };
-
   const projects = [
     {
       img: Posyandu,
       title: "Posyandu (Web-Based)",
-      body: "Fitclub is a website that provides workout movement references using an API as its main data source. The purpose of creating this website is to assist the community in selecting appropriate movements when exercising at the gym or at home.",
+      body: "Posyandu511 is a freelance project developed to support community healthcare services for Posyandu 511 Kemuning Yonif in Blitar. The website features a primary tool for calculating child growth indicators such as stunting, wasting, and overweight, based on Indonesian KMS standards and WHO data comparisons. It also includes additional features like health news, information updates, and online registration. The platform has received positive feedback for its usefulness in promoting better health monitoring within the community.",
       icons: [icons.laravel, icons.php, icons.js, icons.tailwind],
-      url: "https://tmhealth.telkomedika.com/"
+      url: "https://posyandu511.com/"
     },
     {
       img: Egc,
       title: "Employee Get Customer (EGC) (Web-Based)",
-      body: "Fitclub is a website that provides workout movement references using an API as its main data source. The purpose of creating this website is to assist the community in selecting appropriate movements when exercising at the gym or at home.",
-      icons: [icons.react, icons.node, icons.js, icons.nest, icons.tailwind],
-      url: "https://tmhealth.telkomedika.com/"
+      body: "The Employee Get Customer (EGC) platform is a full-stack web application designed to empower employees to contribute to company revenue through product referrals and sales. Developed end-to-end, this system provides a structured affiliate mechanism that tracks employee contributions and rewards them accordingly. The platform received direct appreciation from the Board of Directors, highlighting its impact and value in driving internal sales initiatives.",
+      icons: [icons.laravel, icons.node, icons.js, icons.nest, icons.tailwind],
+      url: "https://egc.telkomedika.com/"
     },
     {
       img: Physionext,
       title: "Physionext (Web-Based)",
-      body: "Fitclub is a website that provides workout movement references using an API as its main data source. The purpose of creating this website is to assist the community in selecting appropriate movements when exercising at the gym or at home.",
-      icons: [icons.react, icons.node, icons.js, icons.nest, icons.tailwind],
-      url: "https://tmhealth.telkomedika.com/"
+      body: "PhysioNext is a dedicated website for Telkomedika’s physiotherapy product line, developed to facilitate product promotion and sales. The platform is integrated with the Employee Get Customer (EGC) system, allowing employees to participate in an affiliate program and earn incentives through successful referrals. Built with modern web technologies, this website focuses on delivering a user-friendly experience while supporting business growth through both direct and affiliate-based sales.",
+      icons: [icons.laravel, icons.node, icons.js, icons.nest, icons.tailwind],
+      url: "https://physionext.telkomedika.com/"
+    },
+    {
+      img: Presensi,
+      title: "Presensi (Web-Based)",
+      body: "The Presensi platform is a modern web-based attendance system for Telkomedika, built with Laravel, JavaScript, and Tailwind CSS, featuring AI-powered chatbot and intelligent agents that enable HR and management to monitor and analyze data in real time with ease; enhanced by HR-controlled geolocation to prevent attendance fraud and reinforced with robust security, it delivers a smart, secure, and highly efficient workforce management solution.",
+      icons: [icons.laravel, icons.php, icons.tailwind],
+      url: "https://newpresensi.telkomedika.com/"
     },
     {
       img: TmHealth,
       title: "TMHealth (Web-Based)",
-      body: "Fitclub is a website that provides workout movement references using an API as its main data source. The purpose of creating this website is to assist the community in selecting appropriate movements when exercising at the gym or at home.",
-      icons: [icons.react, icons.node, icons.js, icons.nest, icons.tailwind],
+      body: "TM Health is a digital business platform designed to support the sale of Telkomedika’s healthcare products, such as wellness programs and medical check-ups (MCU). Developed using Laravel, Node.js, JavaScript, and Tailwind CSS, the platform enables seamless online transactions and enhances the company’s ability to generate revenue through digital channels. It serves as a scalable solution for expanding Telkomedika’s healthcare services in the online market.",
+      icons: [icons.laravel, icons.node, icons.js, icons.nest, icons.tailwind],
       url: "https://tmhealth.telkomedika.com/"
     },
     {
       img: Epakta,
       title: "Electronic Pakta Integritas (Web-Based)",
-      body: "Fitclub is a website that provides workout movement references using an API as its main data source. The purpose of creating this website is to assist the community in selecting appropriate movements when exercising at the gym or at home.",
+      body: "The e-Pakta platform is an integrity pact management system developed for Telkomedika, built using Laravel, JavaScript, and Tailwind CSS. This application streamlines the process of collecting and managing integrity pact submissions, enabling employees to easily fill out and submit their commitments digitally. The system significantly improves efficiency, data organization, and accessibility for the company’s internal compliance processes.",
       icons: [icons.laravel, icons.php, icons.tailwind],
       url: "https://e-pakta.telkomedika.com/"
-    },
-    {
-      img: ScreenshotTools,
-      title: "Screenshot Tools Features (Web-Based)",
-      body: "Fitclub is a website that provides workout movement references using an API as its main data source. The purpose of creating this website is to assist the community in selecting appropriate movements when exercising at the gym or at home.",
-      icons: [icons.react, icons.node, icons.js],
-      url: "https://fitclub-id-abidzarzlfr.netlify.app/"
     },
     {
       img: Fitclub,
